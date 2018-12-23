@@ -1,0 +1,14 @@
+plugins {
+    id 'groovy'
+    id 'com.katalon.gradle-plugin' version "0.0.4"
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+  // https://mvnrepository.com/artifact/org.gebish/geb-core
+  compile group: 'org.gebish', name: 'geb-core', version: '2.2'
+}
+
